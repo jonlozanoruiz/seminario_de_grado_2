@@ -1,0 +1,25 @@
+artifact_path: "/Users/jhonlozano/Documents/Proyectos_python/Seminario de Grado 2/Estandarizacio\u0301\
+  n de Pipelines y Control de Calidad de Datos/mlruns/1/models/m-23f12171ca6f4402a5757ede246deab8/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.8.0
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.2
+model_id: m-23f12171ca6f4402a5757ede246deab8
+model_size_bytes: 1817409
+model_uuid: m-23f12171ca6f4402a5757ede246deab8
+prompts: null
+run_id: 4ed4cee373c94a3c96e85476a4b42ce8
+utc_time_created: '2026-11-19 20:12:33.042537'

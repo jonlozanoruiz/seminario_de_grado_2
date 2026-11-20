@@ -1,0 +1,43 @@
+{
+    "contract_version": "1.0",
+    "model": "iris_random_forest",
+    "experiment": "Proyecto_Final_Grado",
+    "fields": {
+        "sepal length (cm)": {
+            "type": "float",
+            "min": 4.0,
+            "max": 8.0,
+            "nullable": false
+        },
+        "sepal width (cm)": {
+            "type": "float",
+            "min": 2.0,
+            "max": 4.5,
+            "nullable": false
+        },
+        "petal length (cm)": {
+            "type": "float",
+            "min": 1.0,
+            "max": 7.0,
+            "nullable": false
+        },
+        "petal width (cm)": {
+            "type": "float",
+            "min": 0.1,
+            "max": 2.5,
+            "nullable": false
+        }
+    },
+    "valid_example": {
+        "sepal length (cm)": 5.1,
+        "sepal width (cm)": 3.5,
+        "petal length (cm)": 1.4,
+        "petal width (cm)": 0.2
+    },
+    "invalid_example": {
+        "sepal length (cm)": 25.0,
+        "sepal width (cm)": null,
+        "petal length (cm)": -3.0,
+        "petal width (cm)": "no_es_numero"
+    }
+}
